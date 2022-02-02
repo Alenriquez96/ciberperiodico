@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(238, 235, 235);
+}
+.newspaper {
+    column-count: 4;
+    column-gap: 40px;
+    column-rule: 4px double #161516;
+    display: block;
+    column-width: 300px;
+  }
+  article > img{
+      width: 290px;
+  }
+  header{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 0px;
+  }
+  header>img{
+      width: 500px;
+  }
+
+  h1{
+      font-size: 40px;
+  }
